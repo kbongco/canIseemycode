@@ -2,3 +2,27 @@ h1{
   text-align:center;
   
 }
+.text-container{
+  grid-template-columns: auto auto auto;
+}
+textarea{
+  float:right;
+  position:relative;;
+}
+
+#html, #css, #js{
+  height:250px;
+  width:250px;
+}
+
+body, html{
+  height:100%;
+  width:100%;
+
+}
+
+#viewcode{
+  height:100%;
+  width:75%;
+  float:left;
+}
