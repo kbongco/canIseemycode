@@ -1,28 +1,36 @@
+
 h1{
   text-align:center;
+  background-color:grey;
   
 }
-.text-container{
-  grid-template-columns: auto auto auto;
-}
-textarea{
-  float:right;
-  position:relative;;
+.text-areas{
+  display:flex;
+  /* grid-template-columns: auto auto auto; */
+  flex-direction:row;
+  justify-content: space-between;
+  margin-bottom:20px;
+  background-color:grey;
 }
 
+.text-container{
+  background-color:grey;
+}
 #html, #css, #js{
   height:250px;
   width:250px;
+  border: 5px solid blue;
+  background-color:black;
+  color:white;
 }
 
 body, html{
   height:100%;
   width:100%;
-
+  background-color:grey;
 }
 
 #viewcode{
   height:100%;
-  width:75%;
-  float:left;
+  width:100%;
 }
